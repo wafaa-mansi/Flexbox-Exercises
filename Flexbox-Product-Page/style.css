@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+ margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 20px;
+}
+.navbar h2{
+    color: white;
+}
+.links{
+    display: flex;
+    gap: 30px;
+}
+.links a{
+    color: white;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.sidebar{
+    width: 200px;
+    background-color: #eeeeee;
+    padding: 20px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    width: 200px;
+    border: 1px solid #cccccc;
+    padding: 15px;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(104, 203, 236);
+}

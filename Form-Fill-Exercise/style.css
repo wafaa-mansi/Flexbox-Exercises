@@ -1,0 +1,119 @@
+body {
+  font-family: Arial;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 500px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#saveBtn {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(0, 52, 165);
+  color: white;
+  border: none;
+}
+
+#saveBtn:disabled {
+  background-color: rgb(113, 119, 220);
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  text-align: left;
+}
+
+.delete-btn {
+  background-color: rgb(119, 5, 5);
+  color: white;
+  border: none;
+  padding: 6px 10px;
+}
+#clearAllBtn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+.user-count {
+  display: inline-block;
+  background-color: #f4f6f8;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #333;
+  margin: 15px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+#userCount {
+  background-color: #222;
+  color: white;
+  padding: 4px 9px;
+  border-radius: 20px;
+  margin-left: 5px;
+  font-size: 14px;
+}
+.error {
+  color: red;
+  font-size: 13px;
+  margin-top: 5px;
+}
+.stats-container {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.stat-card {
+  flex: 1;
+  background-color: #f5f6fa;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 18px;
+  text-align: center;
+}
+
+.stat-card h3 {
+  margin: 0;
+  font-size: 15px;
+  color: #555;
+}
+
+.stat-card p {
+  margin: 8px 0 0;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
